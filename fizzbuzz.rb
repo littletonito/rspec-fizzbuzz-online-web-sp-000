@@ -8,6 +8,7 @@ def fizzbuzz(num)
     "Buzz"
   elsif (num % 3) == 0
     "Fizz"
+  else (num % 15) !== 0
+    puts
   end
-
 end
